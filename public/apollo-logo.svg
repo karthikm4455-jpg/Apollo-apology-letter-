@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 310" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Flame Gradient -->
+    <linearGradient id="torchFlameGrad" x1="0%" y1="100%" x2="50%" y2="0%">
+      <stop offset="0%" stop-color="#FF9800" />
+      <stop offset="50%" stop-color="#FFB300" />
+      <stop offset="100%" stop-color="#FFD54F" />
+    </linearGradient>
+  </defs>
+
+  <!-- ======================= 1. APOLLO PHARMACY ======================= -->
+  <g transform="translate(20, 10)">
+    <!-- Torch Flame -->
+    <path
+      d="M172 108 C168 85 178 62 195 44 C202 54 212 60 220 62 C228 52 230 40 224 25 C238 38 248 58 244 80 C240 96 226 108 208 108 C188 108 174 104 172 108 Z"
+      fill="url(#torchFlameGrad)"
+    />
+    <path
+      d="M190 98 C192 84 200 72 210 65 C210 73 214 78 220 80 C216 90 206 98 198 98 Z"
+      fill="#F57C00"
+      opacity="0.8"
+    />
+
+    <!-- Emblem: Shield, Apollo Profile, Torch Holder -->
+    <!-- Green Polygon Shield -->
+    <path
+      d="M120 78 L184 78 L184 106 L174 120 L190 120 L190 134 L180 148 L170 142 L170 156 L144 190 L144 140 L160 118 L120 118 Z"
+      fill="#388E88"
+    />
+    <!-- White Medical Cross -->
+    <rect x="132" y="90" width="14" height="4.5" rx="1" fill="#FFFFFF" />
+    <rect x="136.75" y="85.25" width="4.5" height="14" rx="1" fill="#FFFFFF" />
+
+    <!-- Stylized Apollo Head Profile (White cutout & Face line) -->
+    <path
+      d="M184 106 L184 116 L194 116 L194 128 L188 128 L184 140 L190 146 L190 174 L178 174 L178 144 L182 138 L184 128 L180 128 L180 116 L184 106 Z"
+      fill="#388E88"
+    />
+
+    <!-- Torch Holder Shaft & Ribs -->
+    <path
+      d="M206 112 L224 112 L220 132 L224 146 L218 158 L224 170 L218 188 L206 188 L212 170 L206 158 L212 146 L206 132 Z"
+      fill="#388E88"
+    />
+    <!-- Structural struts between profile and torch -->
+    <polygon points="164,158 178,142 188,154 174,170" fill="#388E88" />
+    <polygon points="184,166 198,150 208,162 194,178" fill="#388E88" />
+
+    <!-- "Apollo" Wordmark in Teal -->
+    <!-- Custom clean typography matching brand proportions -->
+    <text
+      x="88"
+      y="245"
+      fill="#388E88"
+      font-family="'Montserrat', 'Century Gothic', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+      font-size="82"
+      font-weight="800"
+      letter-spacing="-1.5px"
+    >Apollo</text>
+
+    <!-- "PHARMACY" Wordmark -->
+    <text
+      x="180"
+      y="282"
+      fill="#388E88"
+      font-family="'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+      font-size="34"
+      font-weight="900"
+      letter-spacing="5px"
+    >PHARMACY</text>
+  </g>
+
+  <!-- ======================= 2. PLUS SIGN (+) ======================= -->
+  <g transform="translate(485, 160)">
+    <rect x="-6" y="-32" width="12" height="64" rx="3.5" fill="#388E88" />
+    <rect x="-32" y="-6" width="64" height="12" rx="3.5" fill="#388E88" />
+  </g>
+
+  <!-- ======================= 3. APOLLO 24|7 ======================= -->
+  <g transform="translate(545, 45)">
+    <!-- "Apollo" Orange Heading -->
+    <text
+      x="10"
+      y="90"
+      fill="#EE5622"
+      font-family="'Montserrat', 'Century Gothic', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+      font-size="94"
+      font-weight="800"
+      letter-spacing="-1px"
+    >Apollo</text>
+
+    <!-- 24|7 Orange Badge (Rounded box with speech tail) -->
+    <g transform="translate(90, 105)">
+      <!-- Rounded Rectangle -->
+      <path
+        d="M20 0 H178 C189 0 198 9 198 20 V88 C198 99 189 108 178 108 H20 C9 108 0 99 0 88 V20 C0 9 9 0 20 0 Z"
+        fill="#EE5622"
+      />
+      <!-- Speech Tail at bottom-left -->
+      <path
+        d="M0 80 L0 120 C4 116 16 110 26 108 L10 108 Z"
+        fill="#EE5622"
+      />
+
+      <!-- "24" -->
+      <text
+        x="60"
+        y="80"
+        fill="#FFFFFF"
+        font-family="'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+        font-size="78"
+        font-weight="900"
+        text-anchor="middle"
+        letter-spacing="-2px"
+      >24</text>
+
+      <!-- Vertical Line | -->
+      <line
+        x1="112"
+        y1="16"
+        x2="112"
+        y2="92"
+        stroke="#FFFFFF"
+        stroke-width="4"
+        stroke-linecap="round"
+      />
+
+      <!-- "7" -->
+      <text
+        x="156"
+        y="80"
+        fill="#FFFFFF"
+        font-family="'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+        font-size="78"
+        font-weight="900"
+        text-anchor="middle"
+      >7</text>
+    </g>
+  </g>
+</svg>

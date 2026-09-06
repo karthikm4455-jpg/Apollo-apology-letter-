@@ -1,0 +1,8 @@
+{
+  "name": "Apollo Pharmacy NHT Apology Letter Portal",
+  "description": "Formal apology letter drafting and clearance portal for Apollo Pharmacy Limited NHT trainees, reviewed by Mayappa (Senior Manager for TA Recruitment) and Lokesh (Manager for TA Recruitment).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
